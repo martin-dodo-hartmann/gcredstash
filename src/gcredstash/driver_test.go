@@ -1,15 +1,15 @@
 package gcredstash
 
 import (
-	. "gcredstash"
-	"gcredstash/testutils"
+	"reflect"
+	"testing"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/golang/mock/gomock"
-	"mockaws"
-	"reflect"
-	"testing"
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash/testutils"
+	"github.com/martin-dodo-hartmann/gcredstash/src/mockaws"
 )
 
 func TestGetMaterialWithoutVersion(t *testing.T) {
