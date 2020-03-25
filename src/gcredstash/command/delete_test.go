@@ -1,14 +1,14 @@
 package command
 
 import (
-	"gcredstash"
-	. "gcredstash/command"
-	"gcredstash/testutils"
+	"testing"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/golang/mock/gomock"
-	"mockaws"
-	"testing"
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash"
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash/testutils"
+	"github.com/martin-dodo-hartmann/gcredstash/src/mockaws"
 )
 
 func TestDeleteCommand(t *testing.T) {

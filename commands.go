@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gcredstash/command"
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash/command"
 	"github.com/mitchellh/cli"
 )
 

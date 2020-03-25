@@ -2,9 +2,10 @@ package command
 
 import (
 	"fmt"
-	"gcredstash"
 	"os"
 	"strings"
+
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash"
 )
 
 type DeleteCommand struct {

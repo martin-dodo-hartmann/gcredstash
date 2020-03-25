@@ -2,10 +2,11 @@ package command
 
 import (
 	"fmt"
-	"gcredstash"
 	"os"
 	"sort"
 	"strings"
+
+	"github.com/martin-dodo-hartmann/gcredstash/src/gcredstash"
 )
 
 type ListCommand struct {
